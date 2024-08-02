@@ -1,3 +1,3 @@
-SELECT TABLE_NAME
-FROM information_schema.TABLE
-WHERE TABLE_SCHEMA = "alx_book_store";
+mysql -uroot -p@Thato53
+USE alx_book_store;
+SHOW TABLES;

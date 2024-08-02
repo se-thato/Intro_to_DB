@@ -1,12 +1,12 @@
 SELECT
-    book_id,
-    INT,
+    COLUMN_NAME,
+    COLUMN_TYPE,
     NOT NULL
     PRIMARY_KEY,
     utf8,
     EXTRA
 FROM
-    INFORMATION_SCHEMA.book_id, title, author_id, price, publication_date
+    INFORMATION_SCHEMA.COLUMNS
 WHERE
     TABLE_SCHEMA = 'alx_book_store'
     AND TABLE_NAME = 'Books';
